@@ -1,10 +1,10 @@
 import * as THREE from "three";
 import { VRButton } from "three/examples/jsm/webxr/VRButton";
 
-import TextArea from "./TextArea";
-import Monitor from "./Monitor";
+import TextArea from "./text";
+import Monitor from "./monitor";
 
-export default class RiftSandbox {
+export default class sandbox {
   constructor(width, height, domMonitor) {
     this._width = width;
     this._height = height;
