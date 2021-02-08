@@ -1,0 +1,26 @@
+{
+  "name": "riftsketch",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --https",
+    "lint": "eslint 'js/**/*.js' '*.js'",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@brianpeiris/kibo": "^1.2.0",
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "three": "^0.111.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "raw-loader": "^4.0.0",
+    "selfsigned": "^1.10.7",
+    "webfontloader": "^1.6.28",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
