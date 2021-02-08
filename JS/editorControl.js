@@ -1,10 +1,10 @@
 import * as THREE from "three";
 import WebFont from "webfontloader";
 
-import KeyboardHandler from "./KeyboardHandler";
-import RiftSandbox from "./RiftSandbox";
-import File from "./File";
-import Sketch from "./Sketch";
+import KeyboardHandler from "./Kbhandler";
+import RiftSandbox from "./sandbox";
+import File from "./file";
+import Sketch from "./editor";
 
 import Cube from "raw-loader!./Files/Cube.js";
 
