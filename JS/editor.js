@@ -1,6 +1,6 @@
 import { Math } from "three";
 
-import File from "./File";
+import File from "./file";
 
 export default class Sketch {
   constructor(name, files, uuid) {
